@@ -16,7 +16,7 @@ BlocksKit can be added to a project using [CocoaPods](https://github.com/alloy/c
 * Move BlocksKit.framework to your project's folder.  Drag it from there into your project.
 * Add BlocksKit.framework to "Link Binary With Libraries" in your app's target. Make sure your app is linked with CoreGraphics, Foundation, MessageUI, and UIKit.
 * In the build settings of your target or project, change "Other Linker Flags" (`OTHER_LDFLAGS`) to `-ObjC -all_load`.
-* Insert `#import <BlocksKit/BlocksKit.h>` in your project's prefix header.
+* Insert `#import <BlocksKit/BlocksKit.h>` in your project's prefix header.  
 * Make amazing software.
 
 ### Library
